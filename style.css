@@ -1,6 +1,6 @@
 
 body {
-    background-color: brown;
+    background-color: rgb(240, 198, 198);
     margin: 0px;
     font-family: "Poppins", sans-serif;
   }
@@ -31,7 +31,7 @@ body {
   
   .menu{
     padding:10px;
-    background-color:rgb(227, 50, 50);
+    background-color:rgb(232, 195, 102);
   }
   .menu-header{
     text-align:center;
@@ -48,7 +48,7 @@ body {
       box-shadow: 10px 12px 9px rgb(2, 10, 120);
       border-radius: 6px;
       margin: 8px;
-      background-color: rgb(227, 101, 55);
+      background-color: rgb(210, 104, 65);
       
   }
   
@@ -103,4 +103,36 @@ body {
           padding: 7px;
           letter-spacing: 0.5px;    
       }
+  }
+
+
+/* creartion style button */
+button {
+  margin-bottom: 5%;
+  margin-left: 80%;
+  text-decoration: none;
+  padding: 5px;
+  font-family: arial;
+  font-size: .5em;
+  color: #FFFFFF;
+  background-color: #1f497d;
+  border-radius: 6px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border: 4px solid #f5efef;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 8px #444444;
+  -moz-box-shadow: 3px 3px 8px #444444;
+  }
+  
+  
+  button:hover {
+  padding: 10px;
+  background-color: #f79646;
+  border-radius: 6px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  box-shadow: 1px 1px 4px #777777;
+  -webkit-box-shadow: 1px 1px 4px #777777;
+  -moz-box-shadow: 1px 1px 4px #777777;
   }
