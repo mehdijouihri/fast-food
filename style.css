@@ -5,8 +5,11 @@ body {
     font-family: "Poppins", sans-serif;
   }
   nav {
+    width: 100%;
+    position:fixed;
     padding: 20px;
-    background-color:orange;
+    background-attachment: fixed;
+    background-color: #f79646;
   }
   .nav-menu{
     display:flex;
@@ -135,4 +138,10 @@ button {
   box-shadow: 1px 1px 4px #444444;
   -webkit-box-shadow: 3px 3px 12px #444444;
   -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  footer{
+    color: #f5efef;
+    background-color: #1f497d;
+    display: flex;
+    justify-content: space-around;
   }
