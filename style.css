@@ -113,13 +113,13 @@ button {
   text-decoration: none;
   padding: 5px;
   font-family: arial;
-  font-size: .5em;
+  font-size: em;
   color: #FFFFFF;
   background-color: #1f497d;
   border-radius: 6px;
   -webkit-border-radius: 22px;
   -moz-border-radius: 22px;
-  border: 4px solid #f5efef;
+  border: 2px solid #f5efef;
   box-shadow: 3px 3px 12px #444444;
   -webkit-box-shadow: 3px 3px 8px #444444;
   -moz-box-shadow: 3px 3px 8px #444444;
@@ -132,7 +132,7 @@ button {
   border-radius: 6px;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
-  box-shadow: 1px 1px 4px #777777;
-  -webkit-box-shadow: 1px 1px 4px #777777;
-  -moz-box-shadow: 1px 1px 4px #777777;
+  box-shadow: 1px 1px 4px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
   }
