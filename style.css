@@ -124,7 +124,7 @@ button {
   border-radius: 6px;
   -webkit-border-radius: 22px;
   -moz-border-radius: 22px;
-  border: 2px solid #f5efef;
+  border: 1px solid #f20d0d;
   box-shadow: 3px 3px 12px #444444;
   -webkit-box-shadow: 3px 3px 8px #444444;
   -moz-box-shadow: 3px 3px 8px #444444;
@@ -132,7 +132,7 @@ button {
   
   
   button:hover {
-  padding: 10px;
+  padding: 5px;
   background-color: #f79646;
   border-radius: 6px;
   -webkit-border-radius: 14px;
@@ -151,3 +151,72 @@ button {
     margin-top: -30px;
     margin-left: 90%;
   }
+
+    
+   
+    footer{
+      color: #f5efef;
+      background-color: #1f497d;
+      display: flex;
+      justify-content: space-around;
+    }
+    .icon{
+      margin-top: -30px;
+      margin-left: 90%;
+    }
+  /* text clignotant  */
+
+  blink {
+  -webkit-animation: 2s linear infinite condemed_blink_effect; 
+  animation: 2s linear infinite condemed_blink_effect;
+}
+@-webkit-keyframes condemed_blink_effect { 
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes condemed_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+/* icon panier*/
+
+
+.header-cart {
+  position:relative;
+	display:inline-block;
+  margin-right:40px;
+}
+
+.header-cart img {
+  margin-left: 780px;
+		width: 40px;
+	}
+
+.header-cart span {
+  background-color: orangered;
+  color: #fff;
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  top: -5px;
+  right: -15px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 6px;
+  border-radius:100%;
+}
